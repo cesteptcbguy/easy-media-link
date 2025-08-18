@@ -1,5 +1,5 @@
 === Easy Media Link ===
-Contributors: tcbguys
+Contributors: cestep
 Tags: admin bar, toolbar, media, media library, frontend
 Requires at least: 6.0
 Tested up to: 6.8
@@ -45,7 +45,7 @@ Yes. The link is generated with `admin_url()`, which respects subdirectory and m
 
 == Screenshots ==
 
-1. The “Media Library” link visible in the front-end admin bar when logged in.
+1. Accessing the Media Library through the WordPress dashboard menu.
 
 == Changelog ==
 
