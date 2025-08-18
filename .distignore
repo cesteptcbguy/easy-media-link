@@ -1,0 +1,39 @@
+# .distignore for Easy Media Link
+# Exclude development, hidden, and non-production files from WordPress.org release
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node / build tools
+node_modules
+package.json
+package-lock.json
+yarn.lock
+webpack.config.js
+gulpfile.js
+
+# PHP dependency managers
+vendor
+composer.json
+composer.lock
+
+# Archives / zips
+*.zip
+*.tar.gz
+
+# Docs & markdown (keep only readme.txt for WP.org)
+README.md
+CONTRIBUTING.md
+LICENSE.md
+
+# Config files
+.editorconfig
+.eslintrc
+.prettierrc
+.npmrc
