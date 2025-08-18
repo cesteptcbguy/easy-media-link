@@ -1,4 +1,16 @@
+# OS junk
 .DS_Store
-node_modules/
-vendor/
+Thumbs.db
 *.zip
+
+# Node
+node_modules/
+
+# Composer
+/vendor/
+
+# Logs
+*.log
+
+# WordPress.org SVN assets
+/assets
