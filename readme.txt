@@ -2,9 +2,9 @@
 Contributors: cestep
 Tags: admin bar, toolbar, media, media library, frontend
 Requires at least: 6.0
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,10 +49,17 @@ Yes. The link is generated with `admin_url()`, which respects subdirectory and m
 
 == Changelog ==
 
+= 1.1.0 =
+* Add translation loading support and make the plugin fully translation-ready.
+* Confirm compatibility with WordPress 6.9.
+
 = 1.0.0 =
 * Initial release: adds a Media Library link to the admin bar on the front end for users who can upload files.
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+Adds translation support and confirms compatibility with WordPress 6.9.
 
 = 1.0.0 =
 Initial release.
